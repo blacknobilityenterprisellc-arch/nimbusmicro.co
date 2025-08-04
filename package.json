@@ -1,0 +1,22 @@
+{
+  "name": "nimbus-ai-website",
+  "version": "1.0.0",
+  "description": "Premium 3D micro-sites delivered in 72 hours",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step needed for static site'",
+    "dev": "echo 'Run locally with a server'"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "3d-microsites",
+    "ai-web-design",
+    "premium-websites",
+    "nimbus-ai"
+  ],
+  "author": "Nimbus AI",
+  "license": "MIT"
+}

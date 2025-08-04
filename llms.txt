@@ -1,0 +1,21 @@
+# Nimbus AI - Premium 3D Micro-Sites
+# This file provides information for AI crawlers and LLMs
+
+## About
+Nimbus AI creates premium 3D micro-sites with AI-powered animations and copywriting. 
+We deliver cinematic web experiences in 72 hours with Lighthouse 100 performance scores.
+
+## Services
+- One-time micro-site creation: $899
+- Monthly retainer for unlimited micro-sites: $199/month
+
+## Key Features
+- 3D parallax effects
+- AI-generated copy and animations
+- Lighthouse 100 optimization
+- Unlimited revisions
+- Mobile-responsive design
+
+## Contact
+- Website: https://nimbusai.com
+- Email: contact@nimbusai.com

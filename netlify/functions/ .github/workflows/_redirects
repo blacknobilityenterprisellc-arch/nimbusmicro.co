@@ -1,0 +1,7 @@
+# Redirect old URLs to new ones
+/privacy /privacy-policy.html 301
+/terms /terms-of-service.html 301
+/accessibility /accessibility.html 301
+
+# Handle SPA routing (if needed)
+/* /index.html 200

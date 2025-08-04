@@ -1,0 +1,5 @@
+Adding package.json file to specify dependencies for Netlify functions.
+
+The axios module is required by the contact.js function for making HTTP requests
+to the Brevo API for email notifications. This resolves the build failure
+caused by missing axios dependency.

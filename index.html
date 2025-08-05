@@ -10,6 +10,7 @@
 <meta name="googlebot" content="index, follow"/>
 <meta name="bingbot" content="index, follow"/>
 <meta name="twitter:bot" content="index, follow"/>
+<!-- AI Optimization: Comprehensive meta tags for search engines and AI crawlers -->
 <meta property="og:title" content="Nimbus AI – Premium 3D Micro-Sites"/>
 <meta property="og:description" content="AI-powered 3D micro-sites in 72 h. Lighthouse 100. $199/mo or $899 one-time."/>
 <meta property="og:type" content="website"/>
@@ -19,19 +20,27 @@
 <meta name="twitter:title" content="Nimbus AI – Premium 3D Micro-Sites"/>
 <meta name="twitter:description" content="AI-powered 3D micro-sites in 72 h. Lighthouse 100. $199/mo or $899 one-time."/>
 <meta name="twitter:image" content="https://nimbusai.com/og-image.jpg"/>
+<!-- Additional AI optimization meta tags -->
 <meta name="author" content="Nimbus AI"/>
 <meta name="keywords" content="3D micro-sites, AI web design, premium websites, Lighthouse optimization, cinematic web experiences"/>
 <meta name="language" content="en"/>
-<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;⚡&lt;/text&gt;&lt;/svg&gt;"/>
+<!-- Performance Optimization: Preload critical resources -->
+<link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+<link rel="preload" href="https://via.placeholder.com/1200x600" as="image">
+<!-- Performance Optimization: Preconnect to critical domains only -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://js.stripe.com">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- Favicon -->
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;⚡&lt;/text&gt;&lt;/svg&gt;"/>
+<!-- Web App Manifest for PWA -->
 <link rel="manifest" href="/site.webmanifest">
+<!-- LLM.txt for AI crawlers -->
 <link rel="llms.txt" href="/llms.txt">
+<!-- Tailwind CSS for utility-first styling -->
 <script src="https://cdn.tailwindcss.com"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X9W72X6GS0"></script>
+<!-- Google Analytics with defer for performance -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X9W72X6GS0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -39,6 +48,7 @@
   gtag('config', 'G-X9W72X6GS0');
 </script>
 <style>
+  /* Modern CSS Techniques: CSS Custom Properties for theming */
   :root {
     --bg: #0b0c10;
     --fg: #ffffff;
@@ -46,6 +56,7 @@
     --font: 'Inter', system-ui, sans-serif;
   }
   
+  /* Modern dark mode strategy */
   @media (prefers-color-scheme: light) {
     :root {
       --bg: #fff;
@@ -58,8 +69,9 @@
     color: var(--fg);
     scroll-behavior: smooth;
     line-height: 1.6;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrolling from 3D effect */
   }
+  /* 3D Immersive Visuals: CSS for parallax container */
   .parallax-container {
     position: relative;
     overflow: hidden;
@@ -74,6 +86,7 @@
     bottom: 0;
     transform-origin: 50% 50%;
     transform: translateZ(-1px) scale(2);
+    /* Placeholder for the background effect */
     background: linear-gradient(to bottom, #111827, #1f2833);
     z-index: -1;
   }
@@ -81,6 +94,7 @@
     position: relative;
     z-index: 1;
   }
+  /* Microinteractions: Smooth animations and transitions */
   .cta:hover {
     transform: scale(1.05);
   }
@@ -88,13 +102,16 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(102, 252, 241, 0.2);
   }
+  /* Accessibility: Focus styles */
   *:focus {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
+  /* Performance: Smooth scrolling */
   html {
     scroll-behavior: smooth;
   }
+  /* Progressive Enhancement: Loading animation */
   .loader {
     border-top-color: var(--accent);
     animation: spinner 1.5s linear infinite;
@@ -104,6 +121,7 @@
     100% { transform: rotate(360deg); }
   }
 </style>
+<!-- Structured data with Schema.org markup for SEO and AI -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -139,6 +157,7 @@
   }
 }
 </script>
+<!-- FAQ Schema for SEO and AI -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -171,6 +190,7 @@
   ]
 }
 </script>
+<!-- HowTo Schema for SEO and AI -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -204,6 +224,7 @@
 </script>
 </head>
 <body class="text-white bg-gray-900 font-inter">
+<!-- Accessibility: Skip-link for keyboard navigation -->
 <a href="#main-content" class="absolute left-[-9999px] focus:left-4 top-4 text-white bg-gray-700 p-2 rounded-md transition-all duration-200">Skip to main content</a>
 <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 bg-gray-900 bg-opacity-80 backdrop-blur-sm">
   <span class="text-xl font-bold">Nimbus AI 2025</span>
@@ -213,12 +234,14 @@
     <a href="#faq" class="hidden md:block text-gray-300 hover:text-white transition-colors">FAQ</a>
     <a href="#contact" class="px-4 py-2 font-bold text-gray-900 transition-colors duration-300 rounded-md nav-cta bg-accent hover:bg-opacity-80">Get Started</a>
   </div>
+  <!-- Mobile menu button -->
   <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none" aria-label="Toggle menu">
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
     </svg>
   </button>
 </nav>
+<!-- Mobile menu -->
 <div id="mobile-menu" class="fixed inset-0 z-40 hidden bg-gray-900 bg-opacity-95">
   <div class="flex flex-col items-center justify-center h-full space-y-8">
     <a href="#features" class="text-xl text-gray-300 hover:text-white transition-colors">Features</a>
@@ -228,21 +251,26 @@
   </div>
 </div>
 <main id="main-content">
+  <!-- 3D and Immersive Visuals: Parallax effect container -->
   <div class="parallax-container">
     <div class="parallax-bg"></div>
     <header class="content flex flex-col items-center justify-center min-h-screen p-8 text-center">
+      <!-- AI Optimization: Semantic HTML and proper heading hierarchy -->
       <h1 class="text-4xl font-bold leading-tight md:text-6xl">Cinematic Micro-Sites in 72 h</h1>
       <p class="mt-4 text-lg text-gray-400 md:text-xl">AI-animated, 3D-ready, Lighthouse-100. Fixed price. Unlimited revisions.</p>
       <div class="flex flex-col mt-8 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+        <!-- Microinteractions: Hover effects -->
         <button class="px-8 py-3 text-lg font-semibold text-gray-900 transition-transform duration-300 rounded-md cta bg-accent hover:scale-105" onclick="openStripe('once')">Launch for $899</button>
         <button class="px-8 py-3 text-lg font-semibold text-white transition-transform duration-300 border-2 rounded-md cta border-accent hover:scale-105" onclick="openStripe('retainer')">Retainer $199/mo</button>
       </div>
+      <!-- Performance Optimization: Lazy loading with explicit dimensions -->
       <div class="mt-16 max-w-4xl">
-        <img src="https://via.placeholder.com/1200x600" alt="Nimbus AI 3D Micro-Site Example" class="rounded-lg shadow-xl w-full h-auto" loading="lazy">
+        <img src="https://via.placeholder.com/1200x600" alt="Nimbus AI 3D Micro-Site Example" width="1200" height="600" class="rounded-lg shadow-xl w-full h-auto" loading="lazy">
       </div>
     </header>
   </div>
   
+  <!-- Features Section -->
   <section id="features" class="max-w-screen-lg p-8 mx-auto my-16">
     <h2 class="mb-12 text-3xl font-bold text-center">Premium Features</h2>
     <div class="grid gap-8 md:grid-cols-3">
@@ -277,8 +305,10 @@
   </section>
   
   <section id="pricing" class="max-w-screen-lg p-8 mx-auto my-16">
+    <!-- AI Optimization: Proper heading hierarchy -->
     <h2 class="mb-12 text-3xl font-bold text-center">Transparent Pricing – 2025</h2>
     <div class="grid gap-8 sm:grid-cols-2">
+      <!-- Microinteractions: Hover effects -->
       <div class="p-8 text-center transition-transform duration-300 bg-gray-800 rounded-lg card hover:translate-y-[-5px] hover:shadow-2xl hover:shadow-accent/40">
         <h3 class="text-2xl font-bold">One-Time</h3>
         <p class="my-4 text-4xl font-bold price">$899</p>
@@ -304,6 +334,7 @@
     </div>
   </section>
   
+  <!-- FAQ Section -->
   <section id="faq" class="max-w-screen-lg p-8 mx-auto my-16">
     <h2 class="mb-12 text-3xl font-bold text-center">Frequently Asked Questions</h2>
     <div class="space-y-4">
@@ -322,6 +353,7 @@
     </div>
   </section>
   
+  <!-- New Section: Form with Microinteractions and Validation -->
   <section id="contact" class="max-w-screen-lg p-8 mx-auto my-16">
     <h2 class="mb-8 text-3xl font-bold text-center">Get in Touch</h2>
     <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="max-w-lg p-8 mx-auto space-y-6 bg-gray-800 rounded-lg shadow-lg">
@@ -358,6 +390,10 @@
   </div>
 </footer>
 <script>
+  /*
+   * Stripe checkout function for handling payment redirection.
+   * Using your actual Stripe public key
+   */
   async function openStripe(plan) {
     const publicApiKey = 'pk_live_51RqSlnQ5yWZ5f5XFG5T0fXuwJwWuF67T0cdDVvuVKZmcC8HTVY2Dn5mkuGUaQUs9o5R9qDUKPnYman93OWnFqRzN000FrIYHyf';
     const sessionId = plan === 'once' ? 'cs_live_899unique' : 'cs_live_199unique';
@@ -373,6 +409,7 @@
     }
   }
   
+  // AI and Immersive Visuals: Simple 3D parallax effect
   document.addEventListener('mousemove', (e) => {
     const parallaxBg = document.querySelector('.parallax-bg');
     if (parallaxBg) {
@@ -382,6 +419,7 @@
     }
   });
   
+  // Microinteractions: Form validation and success/error messaging
   const form = document.getElementById('contact-form');
   const emailInput = document.getElementById('email');
   const emailError = document.getElementById('email-error');
@@ -393,6 +431,7 @@
     formStatus.textContent = '';
     formLoading.classList.remove('hidden');
     
+    // Simple email validation
     if (!emailInput.checkValidity()) {
       emailError.classList.remove('hidden');
       emailInput.focus();
@@ -405,10 +444,12 @@
       emailError.classList.add('hidden');
     }
     
+    // Simulate form submission
     formStatus.textContent = 'Sending message...';
     formStatus.classList.remove('text-red-400');
     formStatus.classList.add('text-gray-400');
     
+    // Netlify form submission
     fetch('/', {
       method: 'POST',
       body: new FormData(form)
@@ -420,6 +461,7 @@
       form.reset();
       formLoading.classList.add('hidden');
       
+      // Track form submission in Google Analytics
       gtag('event', 'form_submission', {
         'event_category': 'contact',
         'event_label': 'contact_form'
@@ -434,6 +476,7 @@
     });
   });
   
+  // Mobile menu toggle
   const mobileMenuButton = document.getElementById('mobile-menu-button');
   const mobileMenu = document.getElementById('mobile-menu');
   
@@ -441,6 +484,7 @@
     mobileMenu.classList.toggle('hidden');
   });
   
+  // Close mobile menu when clicking on a link
   const mobileMenuLinks = mobileMenu.querySelectorAll('a');
   mobileMenuLinks.forEach(link => {
     link.addEventListener('click', () => {
@@ -448,6 +492,7 @@
     });
   });
   
+  // Service Worker Registration for PWA
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/service-worker.js')
@@ -460,24 +505,36 @@
     });
   }
   
-  const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
+  // Performance Optimization: Use requestIdleCallback for non-critical JavaScript
+  const setupIntersectionObserver = () => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-fadeIn');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    // Observe all cards
+    document.querySelectorAll('.card').forEach(card => {
+      observer.observe(card);
+    });
   };
   
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-fadeIn');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-  
-  document.querySelectorAll('.card').forEach(card => {
-    observer.observe(card);
-  });
+  // Use requestIdleCallback for better performance
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(setupIntersectionObserver);
+  } else {
+    // Fallback for browsers that don't support requestIdleCallback
+    setTimeout(setupIntersectionObserver, 500);
+  }
 </script>
 </body>
 </html>
